@@ -1,0 +1,12 @@
+{
+  "domain": "topradio",
+  "name": "TOPradio",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Jurgen-DOUCHY/topradio",
+  "dependencies": [],
+  "codeowners": ["@Jurgen-DOUCHY"],
+  "requirements": [],
+  "config_flow": true,
+  "iot_class": "local_push",
+  "integration_type": "service"
+}
