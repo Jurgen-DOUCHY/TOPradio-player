@@ -8,7 +8,7 @@ STATIONS =  [
     },
     {
       "name": "TOP2",
-      "source": "",
+      "source": "https://playerservices.streamtheworld.com/api/livestream-redirect/TOP_ZILLION.mp3",
       "logo": "https://api.topradio.be/images/34336.0653cb2.16-9.1000.90.jpg",
       "description": "TOP2 stream."
     },

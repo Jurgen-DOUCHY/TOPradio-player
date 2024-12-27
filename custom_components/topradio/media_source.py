@@ -13,6 +13,7 @@ class TOPradioSource(MediaSource):
     def __init__(self, hass: HomeAssistant):
         super().__init__(DOMAIN)
         self.hass = hass
+        self.thumbnail = "https://api.topradio.be/images/34292.a1097ca.16-9.1000.90.jpg"
 
     async def async_resolve_media(self, item: MediaSourceItem) -> PlayMedia:
         return PlayMedia(item.identifier, "audio/mpeg")
