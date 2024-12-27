@@ -1,4 +1,4 @@
-# TOPradio-player
+# TOPradio
 TOPradio source integration
 
 ## Description
