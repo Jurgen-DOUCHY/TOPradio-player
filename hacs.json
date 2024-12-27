@@ -1,7 +1,6 @@
 {
     "name": "TOPradio",
-    "render_readme": true,
+    "render_readme": false,
     "homeassistant": "2023.10",
-    "zip_release": true,
-    "filename": "topradio.zip"
+    "zip_release": false
 }
