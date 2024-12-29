@@ -1,7 +1,7 @@
 {
   "domain": "topradio",
   "name": "TOPradio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "documentation": "https://github.com/Jurgen-DOUCHY/topradio",
   "dependencies": [],
   "codeowners": ["@Jurgen-DOUCHY"],

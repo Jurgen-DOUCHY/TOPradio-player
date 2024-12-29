@@ -16,6 +16,15 @@ class TOPradioSource(MediaSource):
         self.thumbnail = "https://api.topradio.be/images/34292.a1097ca.16-9.1000.90.jpg"
 
     async def async_resolve_media(self, item: MediaSourceItem) -> PlayMedia:
+        # Find the corresponding station for the stream
+        for station in STATIONS:
+            if station["source"] == item.identifier:
+                return PlayMedia(
+                    url=item.identifier,
+                    mime_type="audio/mpeg",
+                    title=station["name"],
+                    thumbnail=station["logo"]
+                )
         return PlayMedia(item.identifier, "audio/mpeg")
 
     async def async_browse_media(self, item: MediaSourceItem) -> BrowseMediaSource:
